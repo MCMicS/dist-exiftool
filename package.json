@@ -1,6 +1,6 @@
 {
   "name": "@mcmics/dist-exiftool",
-  "version": "12.23.0",
+  "version": "12.23.1",
   "description": "Platform-dependent distribution of exiftool.",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "platform-dependent-modules": "0.0.14"
   },
   "optionalDependencies": {
-    "@mcmics/exiftool.exe": "^12.23.0",
+    "@mcmics/exiftool.exe": "^12.23",
     "@mcmics/exiftool.pl": "12.23"
   },
   "config": {

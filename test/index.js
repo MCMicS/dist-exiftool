@@ -15,10 +15,10 @@ function exec(file, args) {
 module.exports = {
     'should export a path to current executable': () => {
         if (process.platform === 'win32') {
-            const exePath = path.join(__dirname, '../node_modules/exiftool.exe/vendor/exiftool.exe')
+            const exePath = path.join(__dirname, '../node_modules/@mcmics/exiftool.exe/vendor/exiftool.exe')
             assert.equal(exiftool, exePath)
         } else {
-            const plPath = path.join(__dirname, '../node_modules/exiftool.pl/vendor/exiftool')
+            const plPath = path.join(__dirname, '../node_modules/@mcmics/exiftool.pl/vendor/exiftool')
             assert.equal(exiftool, plPath)
         }
     },

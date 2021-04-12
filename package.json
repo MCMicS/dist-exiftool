@@ -29,7 +29,7 @@
   },
   "optionalDependencies": {
     "@mcmics/exiftool.exe": "^12.23",
-    "@mcmics/exiftool.pl": "12.23"
+    "@mcmics/exiftool.pl": "^12.23"
   },
   "config": {
     "platformDependentModules": {

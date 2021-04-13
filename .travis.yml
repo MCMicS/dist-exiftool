@@ -1,8 +1,10 @@
 language: node_js
 node_js:
   - "lts/*"
+dist: xenial
+cache: npm
 os:
   - linux
   - osx
-osx_image: xcode8
+osx_image: xcode11
 script: 'node platform; npm test'

@@ -1,6 +1,6 @@
 {
   "name": "@mcmics/dist-exiftool",
-  "version": "12.23.1",
+  "version": "12.23.2",
   "description": "Platform-dependent distribution of exiftool.",
   "main": "index.js",
   "scripts": {

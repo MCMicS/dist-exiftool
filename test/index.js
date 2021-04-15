@@ -15,10 +15,10 @@ function exec(file, args) {
 module.exports = {
     'should export a path to current executable': () => {
         if (process.platform === 'win32') {
-            const exePath = path.join(__dirname, '../node_modules/exiftool.exe/vendor/exiftool.exe')
+            const exePath = path.join(__dirname, '../node_modules/@mcmics/exiftool.exe/vendor/exiftool.exe')
             assert.equal(exiftool, exePath)
         } else {
-            const plPath = path.join(__dirname, '../node_modules/exiftool.pl/vendor/exiftool')
+            const plPath = path.join(__dirname, '../node_modules/@mcmics/exiftool.pl/vendor/exiftool')
             assert.equal(exiftool, plPath)
         }
     },
@@ -32,10 +32,10 @@ module.exports = {
                 assert.equal(res.stderr.trim(), stderrData)
             })
     },
-    'should have version 11.01': () => {
+    'should have version 12.23': () => {
         return exec(exiftool, ['-ver'])
             .then((res) => {
-                assert.equal(res.stdout.trim(), '11.01')
+                assert.equal(res.stdout.trim(), '12.23')
             })
     },
 }

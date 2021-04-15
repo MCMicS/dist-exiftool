@@ -1,6 +1,6 @@
 {
-  "name": "dist-exiftool",
-  "version": "11.01.0",
+  "name": "@mcmics/dist-exiftool",
+  "version": "12.23.2",
   "description": "Platform-dependent distribution of exiftool.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sobesednik/dist-exiftool.git"
+    "url": "git+https://github.com/MCMicS/dist-exiftool.git"
   },
   "keywords": [
     "exiftool"
@@ -17,36 +17,36 @@
   "author": "Anton <anton@sobesednik.media>",
   "license": "Artistic-2.0",
   "bugs": {
-    "url": "https://github.com/Sobesednik/dist-exiftool/issues"
+    "url": "https://github.com/MCMicS/dist-exiftool/issues"
   },
-  "homepage": "https://github.com/Sobesednik/dist-exiftool#readme",
+  "homepage": "https://github.com/MCMicS/dist-exiftool#readme",
   "devDependencies": {
-    "cross-env": "5.0.0",
-    "zoroaster": "0.4.4"
+    "cross-env": "7.0.3",
+    "zoroaster": "4.4.0"
   },
   "dependencies": {
     "platform-dependent-modules": "0.0.14"
   },
   "optionalDependencies": {
-    "exiftool.exe": "11.01",
-    "exiftool.pl": "11.01"
+    "@mcmics/exiftool.exe": "12.23",
+    "@mcmics/exiftool.pl": "12.23"
   },
   "config": {
     "platformDependentModules": {
       "linux": [
-        "exiftool.pl@11.01"
+        "@mcmics/exiftool.pl@12.23"
       ],
       "win32": [
-        "exiftool.exe@11.01"
+        "@mcmics/exiftool.exe@12.23"
       ],
       "darwin": [
-        "exiftool.pl@11.01"
+        "@mcmics/exiftool.pl@12.23"
       ],
       "freebsd": [
-        "exiftool.pl@11.01"
+        "@mcmics/exiftool.pl@12.23"
       ],
       "sunos": [
-        "exiftool.pl@11.01"
+        "@mcmics/exiftool.pl@12.23"
       ]
     }
   }

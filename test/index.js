@@ -32,10 +32,10 @@ module.exports = {
                 assert.equal(res.stderr.trim(), stderrData)
             })
     },
-    'should have version 12.23': () => {
+    'should have version 12.24': () => {
         return exec(exiftool, ['-ver'])
             .then((res) => {
-                assert.equal(res.stdout.trim(), '12.23')
+                assert.equal(res.stdout.trim(), '12.24')
             })
     },
 }

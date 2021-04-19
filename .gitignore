@@ -31,7 +31,7 @@ node_modules
 jspm_packages
 
 # lock files
-package-lock.json
+#package-lock.json
 
 # Optional npm cache directory
 .npm

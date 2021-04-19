@@ -4,7 +4,7 @@ Fork of [https://github.com/Sobesednik/dist-exiftool](https://github.com/Sobesed
 A distribution of _exiftool_. Depending on the platform, it will install
 either [exiftool.pl](https://www.npmjs.com/package/@mcmics/exiftool.pl) or
 [exiftool.exe](https://www.npmjs.com/package/@mcmics/exiftool.exe) module.
-Current version is 12.23.
+Current version is 12.16.
 
 [![npm version](https://badge.fury.io/js/%40mcmics%2Fdist-exiftool.svg)](https://badge.fury.io/js/%40mcmics%2Fdist-exiftool)
 [![Build Status](https://api.travis-ci.com/MCMicS/dist-exiftool.svg?branch=master)](https://travis-ci.com/github/MCMicS/dist-exiftool)

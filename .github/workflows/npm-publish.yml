@@ -43,6 +43,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
+          scope: '@mcmics'
       - run: npm ci
       - run: npm publish
         env:

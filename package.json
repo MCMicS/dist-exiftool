@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "platform-dependent-modules",
-    "test": "cross-env ZOROASTER_TIMEOUT=10000 zoroaster test"
+    "test": "cross-env ZOROASTER_TIMEOUT=20000 zoroaster test"
   },
   "repository": {
     "type": "git",

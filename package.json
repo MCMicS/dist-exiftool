@@ -1,11 +1,11 @@
 {
   "name": "@mcmics/dist-exiftool",
-  "version": "12.16.0",
+  "version": "12.30.0",
   "description": "Platform-dependent distribution of exiftool.",
   "main": "index.js",
   "scripts": {
     "postinstall": "platform-dependent-modules",
-    "test": "cross-env ZOROASTER_TIMEOUT=10000 zoroaster test"
+    "test": "zoroaster --timeout 10000 test"
   },
   "repository": {
     "type": "git",
@@ -28,25 +28,25 @@
     "platform-dependent-modules": "0.0.14"
   },
   "optionalDependencies": {
-    "@mcmics/exiftool.exe": "12.16",
-    "@mcmics/exiftool.pl": "12.16"
+    "@mcmics/exiftool.exe": "12.30",
+    "@mcmics/exiftool.pl": "12.30"
   },
   "config": {
     "platformDependentModules": {
       "linux": [
-        "@mcmics/exiftool.pl@12.16"
+        "@mcmics/exiftool.pl@12.30"
       ],
       "win32": [
-        "@mcmics/exiftool.exe@12.16"
+        "@mcmics/exiftool.exe@12.30"
       ],
       "darwin": [
-        "@mcmics/exiftool.pl@12.16"
+        "@mcmics/exiftool.pl@12.30"
       ],
       "freebsd": [
-        "@mcmics/exiftool.pl@12.16"
+        "@mcmics/exiftool.pl@12.30"
       ],
       "sunos": [
-        "@mcmics/exiftool.pl@12.16"
+        "@mcmics/exiftool.pl@12.30"
       ]
     }
   }

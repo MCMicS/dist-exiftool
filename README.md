@@ -4,11 +4,13 @@ Fork of [https://github.com/Sobesednik/dist-exiftool](https://github.com/Sobesed
 A distribution of _exiftool_. Depending on the platform, it will install
 either [exiftool.pl](https://www.npmjs.com/package/@mcmics/exiftool.pl) or
 [exiftool.exe](https://www.npmjs.com/package/@mcmics/exiftool.exe) module.
-Current version is 12.30.
+Current version is 13.36.
+
+For **Windows executable** we use the x64 version.
 
 [![npm version](https://badge.fury.io/js/%40mcmics%2Fdist-exiftool.svg)](https://badge.fury.io/js/%40mcmics%2Fdist-exiftool)
-[![Build Status](https://app.travis-ci.com/MCMicS/dist-exiftool.svg?branch=production_release)](https://app.travis-ci.com/MCMicS/dist-exiftool)
-[![Build status](https://ci.appveyor.com/api/projects/status/aey678ctf4uj8rec/branch/production_release?svg=true)](https://ci.appveyor.com/project/MCMicS/dist-exiftool/branch/production_release)
+[![Build Status](https://app.travis-ci.com/MCMicS/dist-exiftool.svg?branch=master)](https://app.travis-ci.com/MCMicS/dist-exiftool)
+[![Build status](https://ci.appveyor.com/api/projects/status/aey678ctf4uj8rec/branch/master?svg=true)](https://ci.appveyor.com/project/MCMicS/dist-exiftool/branch/master)
 
 ## Usage
 The module exports a path to the exiftool executable.
